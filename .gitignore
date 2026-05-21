@@ -7,18 +7,21 @@ __pycache__/
 venv/
 ENV/
 env/
+
+# Ignore all dotfiles/folders by default
+.*
+# But track .gitignore
+!.gitignore
+# Explicitly list env files
 .env
+.evn
 
 # Project specific
 mlflow.db
 checkpoints/
 *.egg-info/
-.DS_Store
 
 # Large OBJ/3D model assets and images
 *.obj
 *.png
 
-# Agent files
-.agent/
-.claude/
