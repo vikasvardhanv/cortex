@@ -1,0 +1,4 @@
+{"observation": "P _ _\n_ O _\n_ _ G", "answer": "right"}
+{"observation": "_ P _\n_ O _\n_ _ G", "answer": "right"}
+{"observation": "_ _ P\n_ O _\n_ _ G", "answer": "down"}
+{"observation": "_ _ _\n_ O P\n_ _ G", "answer": "down"}
